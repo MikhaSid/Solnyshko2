@@ -1,3 +1,10 @@
+.zvukimage {
+  position: relative; /* Относительное позиционирование первого изображения */
+  top: 0;
+    right: 0; /* Начальное положение */
+}
+
+
  .u-section-1 {
   background-image: none;
 }
