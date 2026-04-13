@@ -1,8 +1,6 @@
 .MyContainer {
   display: flex; 
   flex-direction: column; 
-  justify-content: space-between;
-  align-items: center; 
 }
 
 
@@ -20,6 +18,7 @@
   bottom: 0;
   left: 0;
   right: 0;
+  height: 20px;
 }
 
 
