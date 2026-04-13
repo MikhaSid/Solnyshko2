@@ -1,14 +1,16 @@
 .zvukimage {
   position: absolute; 
-  bottom: 0;
+  bottom: -10px;
   left: 50%;
-
+  transform: translate(-50%)
   z-index: 10; 
 }
+/*
 img {
   display: flex;
   justify-content: center;
 }
+*/
 
 
  .u-section-1 {
