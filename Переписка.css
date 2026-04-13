@@ -5,6 +5,10 @@
 
   z-index: 10; 
 }
+img {
+  display: flex;
+  justify-content: center;
+}
 
 
  .u-section-1 {
