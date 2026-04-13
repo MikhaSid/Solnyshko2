@@ -1,9 +1,9 @@
 .zvukimage {
   position: absolute; 
-  bottom: -10px;
+  bottom: 0;
   left: 50%;
 
-  z-index: 5; 
+  z-index: 10; 
 }
 
 
