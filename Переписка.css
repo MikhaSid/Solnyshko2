@@ -1,7 +1,9 @@
 .zvukimage {
-  position: relative; /* Относительное позиционирование первого изображения */
-  top: 0;
-    right: 0; /* Начальное положение */
+  position: absolute; 
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%); 
+  z-index: 100 
 }
 
 
