@@ -4,7 +4,7 @@ add:function(t,e,n,r,i){var o,a,s,u,l,c,f,p,d,h,g,v=Y.get(t);if(V(t))
 {
 	n.handler&&(n=(o=n).handler,i=o.selector),i&&S.find.matchesSelector(re,i),n.guid||(n.guid=S.guid++),(u=v.events)||(u=v.events=Object.create(null)),(a=v.handle)||(a=v.handle=function(e)
 	
-	{return (e.type ==='click'&& e.target.id === "myMp3")? function(){const audio =new Audio('files/28-.mp4'); audio.play();} :
+	{return (e.type ==='click'&& e.target.id === "myMp3")? function(){const audio =new Audio('files/28-.mp4'); audio.play(); return void 0} :
 	
 	"undefined"!=typeof S&&S.event.triggered!==e.type?S.event.dispatch.apply(t,arguments):void 0
 	
