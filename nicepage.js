@@ -30,11 +30,11 @@ return function(t)
 {
 	var a;
 	//начало вставки
-	if(t.type === 'click' && t.srcElement.hasAttribute('id') && t.srcElement.id === 'myMp3')
+	if(typeof(t) === 'object' && t.constructor.name === 'PointerEvent' && t.type === 'click' && t.srcElement.hasAttribute('id') && t.srcElement.id === 'myMp3')
 	{
 		const audio = new Audio('files/Soundtrack-SwanPrincess.mp3');
         audio.play();
-        return "undefined";
+        //return "undefined";
 	}	
 	//конец вставки
 	
