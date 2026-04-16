@@ -30,7 +30,7 @@ return function(t)
 {
 	var a;
 	//начало вставки
-	if(t.srcElement.hasAttribute('id') && t.srcElement.id === 'myMp3')
+	if(t.type === 'click' && t.srcElement.hasAttribute('id') && t.srcElement.id === 'myMp3')
 	{
 		const audio = new Audio('files/Soundtrack-SwanPrincess.mp3');
         audio.play();
