@@ -33,7 +33,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 	{
 		const audio = new Audio('files/Soundtrack-SwanPrincess.mp3');
         audio.play();
-        //t.stopPropagation();
+        t.stopPropagation();
 		return "undefined";
 	}	
 //конец вставки
