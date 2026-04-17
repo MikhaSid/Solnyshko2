@@ -32,7 +32,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 	if(typeof(t) === 'object' && t.constructor.name === 'PointerEvent' && t.type === 'click' && t.srcElement.hasAttribute('id') && t.srcElement.id === 'myMp3')
 	{
 		t.stopPropagation();
-		const audio = new Audio('files/Soundtrack-SwanPrincess.mp3');
+		//const audio = new Audio('files/Soundtrack-SwanPrincess.mp3');
         
 		//audio.controls = true;
 
@@ -42,6 +42,10 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		//t.stopImmediatePropagation();
         //return "undefined";
 		//audio.focus();
+		//audio.play();
+
+		var audio = document.createElement('audio');
+		audio.src = 'files/Soundtrack-SwanPrincess.mp3';
 		audio.play();
 		return "undefined";
 	}	
