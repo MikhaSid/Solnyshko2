@@ -34,10 +34,10 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		const audio = new Audio('files/Soundtrack-SwanPrincess.mp3');
         
 		audio.controls = true;
+		audio.focus();
 		audio.play();
 		
-		//t.stopPropagation();
-		t.stopImmediatePropagation();
+		t.stopPropagation();
         return "undefined";
 	}	
 	//конец вставки
