@@ -41,6 +41,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		//t.stopPropagation();
 		//t.stopImmediatePropagation();
         //return "undefined";
+		audio.focus();
 		return audio.play();
 	}	
 //конец вставки
