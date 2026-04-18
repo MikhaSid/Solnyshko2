@@ -33,7 +33,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 	{
 		t.stopPropagation();
 
-		//t.srcElement.parentElement.previousElementSibling.style.opacity = 0;
+		t.srcElement.parentElement.previousElementSibling.style.opacity = 0;
 		
 		//const audio = new Audio('files/Soundtrack-SwanPrincess.mp3');
         
