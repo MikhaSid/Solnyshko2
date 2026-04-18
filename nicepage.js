@@ -32,6 +32,9 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 	if(typeof(t) === 'object' && t.constructor.name === 'PointerEvent' && t.type === 'click' && t.srcElement.hasAttribute('id') && t.srcElement.id === 'myMp3')
 	{
 		t.stopPropagation();
+
+		t.srcElement.parentElement.previousElementSibling.style.opacity = 0;
+		
 		//const audio = new Audio('files/Soundtrack-SwanPrincess.mp3');
         
 		//audio.controls = true;
