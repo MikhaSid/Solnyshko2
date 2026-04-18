@@ -44,8 +44,10 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		//audio.focus();
 		//audio.play();
 
-		var audio = document.createElement('audio');
-		audio.src = 'files/Soundtrack-SwanPrincess.mp3';
+		//var audio = document.createElement('audio');
+		var audio = document.getElementById('myTestAudioId');
+		audio.src = 'files/Стандартный сигнал SMS - iPhone.mp3';
+		audio.style.visibility = 'visible';
 		audio.play();
 		return "undefined";
 	}	
