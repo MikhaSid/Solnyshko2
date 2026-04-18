@@ -45,7 +45,14 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		//audio.play();
 
 		//var audio = document.createElement('audio');
-		var audio = document.getElementById('myTestAudioId');
+		const audio = document.getElementById('myTestAudioId');
+
+		audio.addEventListener('ended', () => {
+ 			// Здесь можно добавить код для скрытия плеера
+  			audio.style.visibility = 'hidden'; // или использовать другие методы скрытия
+			audio.src = '';
+		});
+		
 		audio.src = 'files/Стандартный сигнал SMS - iPhone.mp3';
 		audio.style.visibility = 'visible';
 		audio.play();
