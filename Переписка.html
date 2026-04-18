@@ -68,14 +68,18 @@
 			
 	<!-- начало -->
 	
-	<div id='myTestId' style="border:1"; width: 50%;
+	<div id='myTestDivId' style="border:1"; width: 50%;
 		height: 100px;
 		left: 25%;
-		position: absolute;>
-		<div id='myTestTextId'> 
-			Test text.
-		</div>
-		<audio id='myTestAudioId'controls autoplay>
+		position: relative;>
+		
+		<audio id="myTestAudioId" controls="" autoplay="" style="
+		    position: absolute;
+		    visibility: hidden;
+		    z-index: 1;
+		    top: 0;
+		    left: 50%;
+		    transform: translateX(-50%);">
   			<!-- 
 			<source src="horse.ogg" type="audio/ogg">
   			<source src="horse.mp3" type="audio/mpeg">
