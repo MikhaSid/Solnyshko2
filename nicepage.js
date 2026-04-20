@@ -56,7 +56,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 			audio.src = '';
 		});
 		
-		audio.src = 'files/Soundtrack - Swan Princess.mp3';
+		audio.src = 'files/Soundtrack-SwanPrincess.mp3';
 		audio.style.visibility = 'visible';
 		audio.play();
 		return "undefined";
