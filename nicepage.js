@@ -33,7 +33,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 	if (typeof (t) === 'object' && t.constructor.name === 'PointerEvent' && t.type === 'click' && t.srcElement.id === 'myAudioCloseButton') 
 	{
 		t.stopPropagation();
-		t.srcElement.parentElement.previousElementSibling.style.opacity = 0;
+		//t.srcElement.parentElement.previousElementSibling.style.opacity = 0;
 		
 		const AudioCloseButton = document.getElementById('myAudioCloseButton');
 		AudioCloseButton.addEventListener('click', () => {
@@ -49,7 +49,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 	{
 		t.stopPropagation();
 
-		//t.srcElement.parentElement.previousElementSibling.style.opacity = 0;
+		t.srcElement.parentElement.previousElementSibling.style.opacity = 0;
 		
 		//const audio = new Audio('files/Soundtrack-SwanPrincess.mp3');
         
