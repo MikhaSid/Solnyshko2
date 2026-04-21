@@ -48,7 +48,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		//audio.play();
 
 		//var audio = document.createElement('audio');
-		const audio = document.getElementById('myTestAudioId');
+		const audio = document.getElementById('myTestAudioId1');
 		const AudioCloseButton = document.getElementById('myAudioCloseButton');
 
 		audio.addEventListener('ended', () => {
