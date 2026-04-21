@@ -49,15 +49,18 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 
 		//var audio = document.createElement('audio');
 		const audio = document.getElementById('myTestAudioId');
+		const AudioCloseButton = document.getElementById('myAudioCloseButton');
 
 		audio.addEventListener('ended', () => {
  			// Здесь можно добавить код для скрытия плеера
   			audio.style.visibility = 'hidden'; // или использовать другие методы скрытия
 			audio.src = '';
+			AudioCloseButton.style.visibility = 'hidden'; 
 		});
 		
 		audio.src = 'files/Soundtrack-SwanPrincess.mp3';
 		audio.style.visibility = 'visible';
+		AudioCloseButton.style.visibility = 'visible';
 		audio.play();
 		return "undefined";
 	}	
