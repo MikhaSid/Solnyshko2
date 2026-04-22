@@ -81,6 +81,13 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		audio.style.visibility = 'visible';
 		AudioCloseButton.style.visibility = 'visible';
 		audio.play();
+		If(audio.dataset.myPlayButtonId !=='') 
+		{
+			// вернуть состояние кнопики предудущей
+			var prevButton = document.getElementById(audio.dataset.myPlayButtonId);
+			prevButton..style.visibility = 'visible';		
+		}
+		t.srcElement.style.visibility = 'hidden';
 		return "undefined";
 	}	
 //конец вставки
