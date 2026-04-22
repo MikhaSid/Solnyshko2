@@ -35,16 +35,17 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		t.stopPropagation();
 		//t.srcElement.parentElement.previousElementSibling.style.opacity = 0;
 		
-		var AudioCloseButton = document.getElementById('myAudioCloseButtonId_1');
-		AudioCloseButton.addEventListener('click', () => {
+		//var AudioCloseButton = document.getElementById('myAudioCloseButtonId_1');
+		//AudioCloseButton.addEventListener('click', () => {
 	  		var audio = document.getElementById('myAudioPlayerId_1');
 			audio.style.visibility = 'hidden';
 			audio.src = '';
-			AudioCloseButton.style.visibility = 'hidden';
+		
+			t.srcElement.style.visibility = 'hidden';
 			//var playButton = document.getElementById(audio.getAttribute('data-my-play-button-id'));
 			var playButton = document.getElementById(audio.dataset.myPlayButtonId);		
 			playButton.style.visibility = 'visible';
-		});
+		//});
 		return "undefined";
 	}
 		
