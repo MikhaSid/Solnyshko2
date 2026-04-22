@@ -30,7 +30,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
   
 //начало вставки
 
-	if (typeof (t) === 'object' && t.constructor.name === 'PointerEvent' && t.type === 'click' && t.srcElement.id === 'myAudioCloseButton') 
+	if (typeof (t) === 'object' && t.constructor.name === 'PointerEvent' && t.type === 'click' && t.srcElement.id === 'myAudioCloseButtonId_1') 
 	{
 		t.stopPropagation();
 		//t.srcElement.parentElement.previousElementSibling.style.opacity = 0;
