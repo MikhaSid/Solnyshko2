@@ -74,7 +74,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
   			audio.style.visibility = 'hidden'; // или использовать другие методы скрытия
 			audio.src = '';
 			AudioCloseButton.style.visibility = 'hidden'; 
-			
+			t.srcElement.style.visibility = 'visible';
 		});
 		
 		audio.src = 'files/' + t.srcElement.value;
