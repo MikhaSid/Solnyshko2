@@ -35,9 +35,9 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		t.stopPropagation();
 		//t.srcElement.parentElement.previousElementSibling.style.opacity = 0;
 		
-		const AudioCloseButton = document.getElementById('myAudioCloseButton');
+		const AudioCloseButton = document.getElementById('myAudioCloseButtonId_1');
 		AudioCloseButton.addEventListener('click', () => {
-	  		const audio = document.getElementById('myTestAudioId1');
+	  		const audio = document.getElementById('myAudioPlayerId_1');
 			audio.style.visibility = 'hidden';
 			audio.src = '';
 			AudioCloseButton.style.visibility = 'hidden';
@@ -64,8 +64,8 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		//audio.play();
 
 		//var audio = document.createElement('audio');
-		const audio = document.getElementById('myTestAudioId1');
-		const AudioCloseButton = document.getElementById('myAudioCloseButton');
+		const audio = document.getElementById('myAudioPlayerId_1');
+		const AudioCloseButton = document.getElementById('myAudioCloseButtonId_1');
 
 		
 
