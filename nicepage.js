@@ -90,8 +90,8 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 			prevButton.style.visibility = 'visible';		
 		}
 		t.srcElement.style.visibility = 'hidden';
-		//audio.dataset.myPlayButtonId = t.srcElement.Id;
-		audio.setAttribute('data-my-play-button-id', t.srcElement.Id);
+		//audio.dataset.myPlayButtonId = t.srcElement.id;
+		audio.setAttribute('data-my-play-button-id', t.srcElement.id);
 		audio.play();
 		return "undefined";
 	}	
