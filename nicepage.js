@@ -80,7 +80,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		audio.src = 'files/' + t.srcElement.value;
 		audio.style.visibility = 'visible';
 		AudioCloseButton.style.visibility = 'visible';
-		audio.play();
+		
 		If(audio.dataset.myPlayButtonId !=='') 
 		{
 			// вернуть состояние кнопики предудущей
@@ -88,6 +88,7 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 			prevButton.style.visibility = 'visible';		
 		}
 		t.srcElement.style.visibility = 'hidden';
+		audio.play();
 		return "undefined";
 	}	
 //конец вставки
