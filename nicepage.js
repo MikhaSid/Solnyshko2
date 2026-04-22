@@ -81,8 +81,8 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 		audio.style.visibility = 'visible';
 		AudioCloseButton.style.visibility = 'visible';
 		
-		//If(audio.dataset.myPlayButtonId !=='') 
-		If(audio.getAttribute('data-my-play-button-id')!=='') 
+		if(audio.dataset.myPlayButtonId !=='') 
+		//if(audio.getAttribute('data-my-play-button-id')!=='') 
 		{
 			// вернуть состояние кнопики предудущей
 			//var prevButton = document.getElementById(audio.dataset.myPlayButtonId);
@@ -90,8 +90,8 @@ var n,factory;n=void 0!==e?e:"undefined"!=typeof window?window:this,factory=func
 			prevButton.style.visibility = 'visible';		
 		}
 		t.srcElement.style.visibility = 'hidden';
-		//audio.dataset.myPlayButtonId = t.srcElement.id;
-		audio.setAttribute('data-my-play-button-id', t.srcElement.id);
+		audio.dataset.myPlayButtonId = t.srcElement.id;
+		//audio.setAttribute('data-my-play-button-id', t.srcElement.id);
 		audio.play();
 		return "undefined";
 	}	
