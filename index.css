@@ -11,6 +11,7 @@
 }
 
 .u-section-1 .u-text-1 {
+  font-size: 2.25rem;
   margin: 47px 521px 0 34px;
 }
 
@@ -89,6 +90,7 @@
     margin-top: 151px;
     margin-right: 94px;
     margin-left: 0;
+    font-size: 1.875rem;
   }
 
   .u-section-1 .u-image-1 {
@@ -106,25 +108,25 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 568px;
+    min-height: 578px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 36px;
-    margin-right: 123px;
-    margin-left: 14px;
+    font-size: 1.25rem;
+    margin-top: 29px;
+    margin-right: 116px;
   }
 
   .u-section-1 .u-image-1 {
     width: 101px;
     height: 101px;
-    margin-top: -94px;
-    margin-right: 8px;
+    margin-top: -101px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: 43px;
-    margin-bottom: 56px;
+    margin-top: 65px;
+    margin-bottom: 48px;
     height: 340px;
     margin-right: initial;
     margin-left: initial;
@@ -167,12 +169,12 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 81px;
+    min-height: 67px;
   }
 
   .u-section-2 .u-text-1 {
     width: auto;
-    margin: 17px 0 21px;
+    margin: 17px 0;
   }
 } .u-section-3 {
   background-image: none;
