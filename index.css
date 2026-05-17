@@ -24,7 +24,8 @@
   margin: -58px 17px 0 auto;
  
  /*вставка*/ 
- user-select: none; /**/
+ /*user-select: none; */
+ -webkit-tap-highlight-color: transparent;
 }
 
 .u-section-1 .u-image-2 {
