@@ -580,16 +580,18 @@
 
 .u-section-4 .u-carousel-control-1 {
   position: absolute;
-  left: 10px;
+  left: -71px;
   width: 40px;
   height: 40px;
+  right: auto;
 }
 
 .u-section-4 .u-carousel-control-2 {
   position: absolute;
-  right: 10px;
   width: 40px;
   height: 40px;
+  left: auto;
+  right: -71px;
 }
 
 @media (max-width: 1199px) {
@@ -608,6 +610,14 @@
   .u-section-4 .u-carousel-item-4 {
     margin-right: initial;
   }
+
+  .u-section-4 .u-carousel-control-1 {
+    left: 10px;
+  }
+
+  .u-section-4 .u-carousel-control-2 {
+    right: 10px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -624,11 +634,27 @@
     width: 547px;
     margin-bottom: 33px;
   }
+
+  .u-section-4 .u-carousel-control-1 {
+    left: -40px;
+  }
+
+  .u-section-4 .u-carousel-control-2 {
+    right: -40px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-4 .u-gallery-1 {
     width: 478px;
+  }
+
+  .u-section-4 .u-carousel-control-1 {
+    left: 10px;
+  }
+
+  .u-section-4 .u-carousel-control-2 {
+    right: 10px;
   }
 }
 
@@ -648,6 +674,14 @@
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+
+  .u-section-4 .u-carousel-control-1 {
+    left: 0;
+  }
+
+  .u-section-4 .u-carousel-control-2 {
+    right: 0;
   }
 } .u-section-5 {
   background-image: none;
